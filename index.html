@@ -19,10 +19,13 @@
       box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
     nav {
+      background-color: #fafafa;
       display: flex;
       justify-content: center;
       gap: 30px;
-      margin: 20px 0;
+      padding: 15px 0;
+      border-top: 1px solid #ddd;
+      border-bottom: 1px solid #ddd;
     }
     nav a {
       text-decoration: none;
@@ -93,11 +96,13 @@
     <p>Equity Research and M&A Advisory Services</p>
   </header>
 
-  <nav>
-    <a href="#services">Services</a>
-    <a href="#founders">Founders</a>
-    <a href="#enquiry">Enquiry</a>
-  </nav>
+  <section class="navigation">
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#founders">Founders</a>
+      <a href="#enquiry">Enquiry</a>
+    </nav>
+  </section>
 
   <section id="services" class="services">
     <h2>Our Services</h2>
@@ -123,12 +128,12 @@
       <div class="box founder">
         <img src="https://media.licdn.com/dms/image/v2/C5603AQG8Jczd7eEl2A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1650615669071?e=1756944000&v=beta&t=BHhVZXyjChQw1namc52r0qnVIhwsY6NcctZ1NS1qjtk" alt="Dang Duong Nguyen">
         <h3>Dang Duong Nguyen</h3>
-        <p>Equity research analyst with M&A experience. Nanyang Technological University graduate and certified financial modeler.</p>
+        <p>Equity research analyst with M&A experience. Incoming Nanyang Technological University student and certified financial modeler.</p>
       </div>
       <div class="box founder">
         <img src="https://media.licdn.com/dms/image/v2/D4D03AQF8epO2FXBw9w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1698719726685?e=1756944000&v=beta&t=dinKqbCyAF665YHcwYb2-KvGz1LnfLjtMAh5vY2WxXo" alt="Jonah Garcia">
         <h3>Jonah Garcia</h3>
-        <p>Accounting and finance specialist with audit experience. Top student at NYP and certified financial planner.</p>
+        <p>Accounting and finance specialist with audit experience. Top student at NYP and worked at Deloitte.</p>
       </div>
     </div>
   </section>
@@ -136,7 +141,7 @@
   <section id="enquiry" class="enquiry">
     <h2>Enquiry</h2>
     <p>Send us your questions or project ideas:</p>
-    <form action="mailto:dangduongnguyen2607@gmail.com" method="post" enctype="text/plain">
+    <form action="https://formsubmit.co/dangduongnguyen2607@gmail.com" method="POST">
       <input type="text" name="name" placeholder="Your Name" required>
       <input type="email" name="email" placeholder="Your Email" required>
       <textarea name="message" rows="5" placeholder="Your Message" required></textarea>

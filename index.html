@@ -61,10 +61,15 @@
       height: 120px;
       object-fit: cover;
     }
-    iframe {
-      width: 100%;
-      height: 600px;
-      margin-top: 40px;
+    .resume-embeds {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .resume-embeds iframe {
+      flex: 1;
+      height: 300px;
       border: 1px solid #ccc;
       border-radius: 10px;
     }
@@ -143,10 +148,10 @@
         <p>Accounting and finance specialist with audit experience at Deloitte. Top student at NYP.</p>
       </div>
     </div>
-
-    <h2>Our Resumes</h2>
-    <iframe src="Nguyen_Dang_Duong_Resume.pdf"></iframe>
-    <iframe src="Jonah_Garcia_Resume.pdf"></iframe>
+    <div class="resume-embeds">
+      <iframe src="Nguyen_Dang_Duong_Resume.pdf"></iframe>
+      <iframe src="Jonah_Garcia_Resume.pdf"></iframe>
+    </div>
   </section>
 
   <section id="enquiry" class="enquiry">

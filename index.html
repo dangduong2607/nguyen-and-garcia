@@ -1,1 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nguyen & Garcia, LLP</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f6f2;
+      color: #333;
+    }
+    header {
+      background-color: #fff;
+      padding: 40px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin: 20px 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    .services, .founders, .enquiry {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .service-boxes {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .box {
+      background-color: #fff;
+      flex: 1;
+      min-width: 250px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .founder {
+      text-align: center;
+      margin: 20px;
+    }
+    .founder img {
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    input, textarea {
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nguyen & Garcia, LLP</h1>
+    <p>Equity Research and M&A Advisory Services</p>
+  </header>
 
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#founders">Founders</a>
+    <a href="#enquiry">Enquiry</a>
+  </nav>
+
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-boxes">
+      <div class="box">
+        <h3>Equity Research</h3>
+        <p>Publishing in-depth equity research reports.</p>
+      </div>
+      <div class="box">
+        <h3>M&A Advisory</h3>
+        <p>Providing guidance on mergers and acquisitions.</p>
+      </div>
+      <div class="box">
+        <h3>Financial Models</h3>
+        <p>Selling specialized financial models.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="founders" class="founders">
+    <h2>Meet the Founders</h2>
+    <div class="service-boxes">
+      <div class="box founder">
+        <img src="https://media.licdn.com/dms/image/v2/C5603AQG8Jczd7eEl2A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1650615669071?e=1756944000&v=beta&t=BHhVZXyjChQw1namc52r0qnVIhwsY6NcctZ1NS1qjtk" alt="Dang Duong Nguyen">
+        <h3>Dang Duong Nguyen</h3>
+        <p>Equity research analyst with M&A experience. Nanyang Technological University graduate and certified financial modeler.</p>
+      </div>
+      <div class="box founder">
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQF8epO2FXBw9w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1698719726685?e=1756944000&v=beta&t=dinKqbCyAF665YHcwYb2-KvGz1LnfLjtMAh5vY2WxXo" alt="Jonah Garcia">
+        <h3>Jonah Garcia</h3>
+        <p>Accounting and finance specialist with audit experience. Top student at NYP and certified financial planner.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="enquiry" class="enquiry">
+    <h2>Enquiry</h2>
+    <p>Send us your questions or project ideas:</p>
+    <form action="mailto:dangduongnguyen2607@gmail.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Email</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Nguyen & Garcia, LLP. All rights reserved.</p>
+  </footer>
+</body>
+</html>

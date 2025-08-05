@@ -336,111 +336,6 @@
       transform: translateX(5px);
     }
     
-    /* Founders Section */
-    .founders {
-      padding: 100px 10%;
-      background: var(--primary);
-      position: relative;
-    }
-    
-    .founders-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 40px;
-      margin-top: 50px;
-    }
-    
-    .founder-card {
-      background: rgba(23, 42, 69, 0.7);
-      border-radius: 10px;
-      overflow: hidden;
-      position: relative;
-      border: 1px solid rgba(100, 255, 218, 0.1);
-    }
-    
-    .founder-header {
-      position: relative;
-      height: 200px;
-      background: linear-gradient(135deg, var(--accent) 0%, var(--secondary) 100%);
-      display: flex;
-      justify-content: center;
-      align-items: flex-end;
-    }
-    
-    .founder-image {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      border: 5px solid var(--secondary);
-      overflow: hidden;
-      position: absolute;
-      bottom: -75px;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-    }
-    
-    .founder-image img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-    
-    .founder-body {
-      padding: 100px 30px 40px;
-      text-align: center;
-    }
-    
-    .founder-body h3 {
-      font-size: 1.8rem;
-      color: var(--white);
-      margin-bottom: 10px;
-    }
-    
-    .founder-title {
-      color: var(--accent);
-      font-weight: 500;
-      margin-bottom: 20px;
-      display: block;
-    }
-    
-    .founder-info {
-      color: var(--gray);
-      margin-bottom: 25px;
-    }
-    
-    .expertise {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 10px;
-      margin-bottom: 25px;
-    }
-    
-    .expertise-tag {
-      background: rgba(100, 255, 218, 0.1);
-      color: var(--accent);
-      padding: 5px 15px;
-      border-radius: 30px;
-      font-size: 0.85rem;
-      font-weight: 500;
-    }
-    
-    .resume-link {
-      display: inline-flex;
-      align-items: center;
-      color: var(--accent);
-      text-decoration: none;
-      font-weight: 600;
-    }
-    
-    .resume-link i {
-      margin-left: 8px;
-      transition: var(--transition);
-    }
-    
-    .resume-link:hover i {
-      transform: translateX(5px);
-    }
-    
     /* Stats Section */
     .stats {
       padding: 80px 10%;
@@ -650,6 +545,111 @@
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
     }
     
+    /* Team Section */
+    .team-section {
+      padding: 100px 10%;
+      background: var(--primary);
+      position: relative;
+    }
+    
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 40px;
+      margin-top: 50px;
+    }
+    
+    .team-card {
+      background: rgba(23, 42, 69, 0.7);
+      border-radius: 10px;
+      overflow: hidden;
+      position: relative;
+      border: 1px solid rgba(100, 255, 218, 0.1);
+    }
+    
+    .team-header {
+      position: relative;
+      height: 200px;
+      background: linear-gradient(135deg, var(--accent) 0%, var(--secondary) 100%);
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+    }
+    
+    .team-image {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 5px solid var(--secondary);
+      overflow: hidden;
+      position: absolute;
+      bottom: -75px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    }
+    
+    .team-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    .team-body {
+      padding: 100px 30px 40px;
+      text-align: center;
+    }
+    
+    .team-body h3 {
+      font-size: 1.8rem;
+      color: var(--white);
+      margin-bottom: 10px;
+    }
+    
+    .team-title {
+      color: var(--accent);
+      font-weight: 500;
+      margin-bottom: 20px;
+      display: block;
+    }
+    
+    .team-info {
+      color: var(--gray);
+      margin-bottom: 25px;
+    }
+    
+    .expertise {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 25px;
+    }
+    
+    .expertise-tag {
+      background: rgba(100, 255, 218, 0.1);
+      color: var(--accent);
+      padding: 5px 15px;
+      border-radius: 30px;
+      font-size: 0.85rem;
+      font-weight: 500;
+    }
+    
+    .resume-link {
+      display: inline-flex;
+      align-items: center;
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    
+    .resume-link i {
+      margin-left: 8px;
+      transition: var(--transition);
+    }
+    
+    .resume-link:hover i {
+      transform: translateX(5px);
+    }
+    
     /* Responsive */
     @media (max-width: 992px) {
       .hero {
@@ -711,11 +711,11 @@
 <body>
   <!-- Navigation -->
   <nav class="navbar">
-    <a href="#" class="logo">Nguyen & <span>Garcia</span></a>
+    <a href="#" class="logo">Nguyen & <span>Garcia</span>, LLP</a>
     <ul class="nav-links">
       <li><a href="#home">Home</a></li>
       <li><a href="#services">Services</a></li>
-      <li><a href="#founders">Team</a></li>
+      <li><a href="#team">Team</a></li>
       <li><a href="#expertise">Expertise</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
@@ -723,8 +723,8 @@
   </nav>
 
   <!-- Home Page -->
-  <section class="home" id="home">
-    <div class="hero">
+  <section id="home-page">
+    <div class="hero" id="home">
       <div class="hero-content">
         <h1>Strategic Financial Advisory for <span>High-Stakes Decisions</span></h1>
         <p>Nguyen & Garcia, LLP delivers sophisticated equity research, M&A advisory, and bespoke financial modeling for discerning finance professionals and institutions.</p>
@@ -772,59 +772,6 @@
       </div>
     </section>
 
-    <!-- Founders Section -->
-    <section class="founders" id="founders">
-      <div class="section-title">
-        <h2>Meet Our Founders</h2>
-        <p>Combining deep financial expertise with technical excellence</p>
-      </div>
-      <div class="founders-grid">
-        <!-- Founder 1 -->
-        <div class="founder-card">
-          <div class="founder-header">
-            <div class="founder-image">
-              <img src="https://media.licdn.com/dms/image/v2/C5603AQG8Jczd7eEl2A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1650615669071?e=1756944000&v=beta&t=BHhVZXyjChQw1namc52r0qnVIhwsY6NcctZ1NS1qjtk" alt="Dang Duong Nguyen">
-            </div>
-          </div>
-          <div class="founder-body">
-            <h3>Dang Duong Nguyen</h3>
-            <span class="founder-title">M&A Specialist | Financial Modeler</span>
-            <p class="founder-info">Double Degree in Accountancy & Business (NTU) with Minor in International Trading</p>
-            <div class="expertise">
-              <span class="expertise-tag">M&A Advisory</span>
-              <span class="expertise-tag">LBO Modeling</span>
-              <span class="expertise-tag">Python Automation</span>
-              <span class="expertise-tag">VBA Expert</span>
-              <span class="expertise-tag">Bloomberg Terminal</span>
-            </div>
-            <a href="#resumes" class="resume-link">View Full Resume <i class="fas fa-external-link-alt"></i></a>
-          </div>
-        </div>
-        
-        <!-- Founder 2 -->
-        <div class="founder-card">
-          <div class="founder-header">
-            <div class="founder-image">
-              <img src="https://media.licdn.com/dms/image/v2/D4D03AQF8epO2FXBw9w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1698719726685?e=1756944000&v=beta&t=dinKqbCyAF665YHcwYb2-KvGz1LnfLjtMAh5vY2WxXo" alt="Jonah Garcia">
-            </div>
-          </div>
-          <div class="founder-body">
-            <h3>Jonah Garcia</h3>
-            <span class="founder-title">Audit Specialist | Data Analyst</span>
-            <p class="founder-info">Diploma in Accountancy & Finance (NYP, GPA 3.98/4.0)</p>
-            <div class="expertise">
-              <span class="expertise-tag">Financial Auditing</span>
-              <span class="expertise-tag">Data Visualization</span>
-              <span class="expertise-tag">Compliance</span>
-              <span class="expertise-tag">Tableau</span>
-              <span class="expertise-tag">Six Sigma</span>
-            </div>
-            <a href="#resumes" class="resume-link">View Full Resume <i class="fas fa-external-link-alt"></i></a>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- Stats Section -->
     <section class="stats">
       <div class="stats-grid">
@@ -853,6 +800,76 @@
       <p>Partner with Nguyen & Garcia for institutional-grade financial insights and advisory services tailored to your specific needs.</p>
       <a href="#contact" class="btn primary-btn">Schedule Consultation</a>
     </section>
+  </section>
+
+  <!-- Team Page -->
+  <section class="page-content" id="team-page" style="display: none;">
+    <div class="page-header">
+      <h1>Our Leadership Team</h1>
+      <p>Seasoned professionals with complementary expertise in finance and technology</p>
+    </div>
+    
+    <div class="team-grid">
+      <div class="team-card">
+        <div class="team-header">
+          <div class="team-image">
+            <img src="https://media.licdn.com/dms/image/v2/C5603AQG8Jczd7eEl2A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1650615669071?e=1756944000&v=beta&t=BHhVZXyjChQw1namc52r0qnVIhwsY6NcctZ1NS1qjtk" alt="Dang Duong Nguyen">
+          </div>
+        </div>
+        <div class="team-body">
+          <h3>Dang Duong Nguyen</h3>
+          <span class="team-title">Co-Founder & Managing Partner</span>
+          <p class="team-info">Nanyang Technological University (NTU) | Haiq Capital | Julius Baer</p>
+          <div class="expertise">
+            <span class="expertise-tag">M&A</span>
+            <span class="expertise-tag">Financial Modeling</span>
+            <span class="expertise-tag">Valuation</span>
+            <span class="expertise-tag">Corporate Finance</span>
+          </div>
+          <p style="margin: 20px 0; text-align: left;">Dang brings extensive M&A experience from his role at Haiq Capital, where he developed expertise in deal sourcing, financial modeling, and transaction execution. His technical skills in Python and VBA enable him to create sophisticated financial models and automation solutions.</p>
+          <div style="text-align: left;">
+            <h4 style="color: var(--accent); margin-bottom: 10px;">Certifications:</h4>
+            <ul style="padding-left: 20px; color: var(--gray);">
+              <li>FMVA® (Financial Modeling & Valuation Analyst)</li>
+              <li>CMSA® (Capital Markets & Securities Analyst)</li>
+              <li>CFA Investment Foundations®</li>
+              <li>Bloomberg Market Concepts</li>
+            </ul>
+          </div>
+          <a href="#resumes" class="resume-link" style="margin-top: 20px;">View Full Resume <i class="fas fa-external-link-alt"></i></a>
+        </div>
+      </div>
+      
+      <div class="team-card">
+        <div class="team-header">
+          <div class="team-image">
+            <img src="https://media.licdn.com/dms/image/v2/D4D03AQF8epO2FXBw9w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1698719726685?e=1756944000&v=beta&t=dinKqbCyAF665YHcwYb2-KvGz1LnfLjtMAh5vY2WxXo" alt="Jonah Garcia">
+          </div>
+        </div>
+        <div class="team-body">
+          <h3>Jonah Garcia</h3>
+          <span class="team-title">Co-Founder & Managing Partner</span>
+          <p class="team-info">Nanyang Polytechnic | Deloitte | SMU Accounting Challenge Champion</p>
+          <div class="expertise">
+            <span class="expertise-tag">Audit & Assurance</span>
+            <span class="expertise-tag">Data Analytics</span>
+            <span class="expertise-tag">Compliance</span>
+            <span class="expertise-tag">Financial Reporting</span>
+          </div>
+          <p style="margin: 20px 0; text-align: left;">Jonah's background at Deloitte provided him with deep expertise in financial auditing, regulatory compliance, and data analysis. His award-winning performance in national finance competitions demonstrates his exceptional analytical abilities and strategic thinking.</p>
+          <div style="text-align: left;">
+            <h4 style="color: var(--accent); margin-bottom: 10px;">Certifications:</h4>
+            <ul style="padding-left: 20px; color: var(--gray);">
+              <li>FPWMP® (Financial Planning & Wealth Management Professional)</li>
+              <li>FTIP® (FinTech Industry Professional)</li>
+              <li>Lean Six Sigma Green Belt</li>
+              <li>ACCA Top Student Award</li>
+            </ul>
+          </div>
+          <a href="#resumes" class="resume-link" style="margin-top: 20px;">View Full Resume <i class="fas fa-external-link-alt"></i></a>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- Services Page -->
@@ -945,76 +962,6 @@
           <span class="expertise-tag">Internal Controls</span>
         </div>
         <p>Our frameworks help financial institutions navigate complex regulatory environments.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Team Page -->
-  <section class="page-content" id="team-page" style="display: none;">
-    <div class="page-header">
-      <h1>Our Leadership Team</h1>
-      <p>Seasoned professionals with complementary expertise in finance and technology</p>
-    </div>
-    
-    <div class="founders-grid">
-      <div class="founder-card">
-        <div class="founder-header">
-          <div class="founder-image">
-            <img src="https://media.licdn.com/dms/image/v2/C5603AQG8Jczd7eEl2A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1650615669071?e=1756944000&v=beta&t=BHhVZXyjChQw1namc52r0qnVIhwsY6NcctZ1NS1qjtk" alt="Dang Duong Nguyen">
-          </div>
-        </div>
-        <div class="founder-body">
-          <h3>Dang Duong Nguyen</h3>
-          <span class="founder-title">Co-Founder & Managing Partner</span>
-          <p class="founder-info">Nanyang Technological University (NTU) | Haiq Capital | Julius Baer</p>
-          <div class="expertise">
-            <span class="expertise-tag">M&A</span>
-            <span class="expertise-tag">Financial Modeling</span>
-            <span class="expertise-tag">Valuation</span>
-            <span class="expertise-tag">Corporate Finance</span>
-          </div>
-          <p style="margin: 20px 0; text-align: left;">Dang brings extensive M&A experience from his role at Haiq Capital, where he developed expertise in deal sourcing, financial modeling, and transaction execution. His technical skills in Python and VBA enable him to create sophisticated financial models and automation solutions.</p>
-          <div style="text-align: left;">
-            <h4 style="color: var(--accent); margin-bottom: 10px;">Certifications:</h4>
-            <ul style="padding-left: 20px; color: var(--gray);">
-              <li>FMVA® (Financial Modeling & Valuation Analyst)</li>
-              <li>CMSA® (Capital Markets & Securities Analyst)</li>
-              <li>CFA Investment Foundations®</li>
-              <li>Bloomberg Market Concepts</li>
-            </ul>
-          </div>
-          <a href="#resumes" class="resume-link" style="margin-top: 20px;">View Full Resume <i class="fas fa-external-link-alt"></i></a>
-        </div>
-      </div>
-      
-      <div class="founder-card">
-        <div class="founder-header">
-          <div class="founder-image">
-            <img src="https://media.licdn.com/dms/image/v2/D4D03AQF8epO2FXBw9w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1698719726685?e=1756944000&v=beta&t=dinKqbCyAF665YHcwYb2-KvGz1LnfLjtMAh5vY2WxXo" alt="Jonah Garcia">
-          </div>
-        </div>
-        <div class="founder-body">
-          <h3>Jonah Garcia</h3>
-          <span class="founder-title">Co-Founder & Managing Partner</span>
-          <p class="founder-info">Nanyang Polytechnic | Deloitte | SMU Accounting Challenge Champion</p>
-          <div class="expertise">
-            <span class="expertise-tag">Audit & Assurance</span>
-            <span class="expertise-tag">Data Analytics</span>
-            <span class="expertise-tag">Compliance</span>
-            <span class="expertise-tag">Financial Reporting</span>
-          </div>
-          <p style="margin: 20px 0; text-align: left;">Jonah's background at Deloitte provided him with deep expertise in financial auditing, regulatory compliance, and data analysis. His award-winning performance in national finance competitions demonstrates his exceptional analytical abilities and strategic thinking.</p>
-          <div style="text-align: left;">
-            <h4 style="color: var(--accent); margin-bottom: 10px;">Certifications:</h4>
-            <ul style="padding-left: 20px; color: var(--gray);">
-              <li>FPWMP® (Financial Planning & Wealth Management Professional)</li>
-              <li>FTIP® (FinTech Industry Professional)</li>
-              <li>Lean Six Sigma Green Belt</li>
-              <li>ACCA Top Student Award</li>
-            </ul>
-          </div>
-          <a href="#resumes" class="resume-link" style="margin-top: 20px;">View Full Resume <i class="fas fa-external-link-alt"></i></a>
-        </div>
       </div>
     </div>
   </section>
@@ -1248,7 +1195,7 @@
         <ul class="footer-links">
           <li><a href="#home">Home</a></li>
           <li><a href="#services">Services</a></li>
-          <li><a href="#founders">Team</a></li>
+          <li><a href="#team">Team</a></li>
           <li><a href="#expertise">Expertise</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -1281,7 +1228,7 @@
       const navLinks = document.querySelectorAll('.nav-links a');
       const contactBtn = document.querySelector('.contact-btn');
       const pages = {
-        home: document.querySelector('.home'),
+        home: document.getElementById('home-page'),
         services: document.getElementById('services-page'),
         team: document.getElementById('team-page'),
         expertise: document.getElementById('expertise-page'),
@@ -1300,23 +1247,14 @@
         }
       });
       
-      // Smooth scrolling for anchor links
-      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function(e) {
+      // Navigation link functionality
+      navLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
           e.preventDefault();
-          
           const targetId = this.getAttribute('href').substring(1);
           if (pages[targetId]) {
             showPage(targetId);
             window.scrollTo({ top: 0, behavior: 'smooth' });
-          } else {
-            const target = document.querySelector(this.getAttribute('href'));
-            if (target) {
-              window.scrollTo({
-                top: target.offsetTop - 80,
-                behavior: 'smooth'
-              });
-            }
           }
         });
       });
@@ -1349,6 +1287,22 @@
           }
         });
       }
+      
+      // Smooth scrolling for anchor links within pages
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        if (anchor.getAttribute('href') !== '#') {
+          anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+              window.scrollTo({
+                top: target.offsetTop - 80,
+                behavior: 'smooth'
+              });
+            }
+          });
+        }
+      });
     });
   </script>
 </body>
